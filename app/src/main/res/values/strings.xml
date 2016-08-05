@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">PVC For Wires &amp; Cables</string>
+    <string name="bt_1">Introduction</string>
+    <string name="bt_2">PVC Preparation</string>
+    <string name="bt_3">Composition in PVC Compound</string>
+    <string name="bt_4">Compound Density &amp; Price Calculation</string>
+    <string name="bt_5">Compound Density Calculation</string>
+    <string name="bt_6">Compound Price Calculation</string>
+    <string name="bt_7">Auto BOM Calculation</string>
+    <string name="bt_8">Basic Formulation</string>
+    <string name="bt_9">Troubleshooting Guides</string>
+    <string name="bt_10">About Me</string>
+    <string name="int_1">History of PVC</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="Contact_us">Bibhu</string>
+
+    <string name="history">History of PVC(Poly Vinyl Chloride)</string>
+    <string name="history1">Polyvinyl chloride or PVC was first created by the German chemist
+        Eugen Baumann in 1872.Vinyl is the second most produced plastic in  the world. The first
+        products from vinyl that Walter Semon produced were golf balls and shoe heels. Today,
+        hundreds of products are made from vinyl, including: shower curtains, raincoats, wires,
+        appliances, floor tiles, paints and surface coatings.PVC is a thermoplastic &amp; Non hygroscopic material
+    which is normally available in the rigid which no doubt can be brought in to flexible by adding suitable
+        plasticizers.In PVC the chlorine content is 56.7% &amp; however the value can be increased through
+        chlorination process after which the product is well known for CPVC(Chlorinated Poly Vinyl Chloride)
+    </string>
+
+    <string name="why_pvc">Why PVC for Wires &amp; Cables?</string>
+    <string name="why_pvc1">PVC (Polyvinyl Chloride) – is the most commonly used thermoplastic
+        insulator for cables. It is cheap, durable and widely available. However, the chlorine
+        in PVC (a halogen) causes the production of thick, toxic, black smoke when burnt and
+        can be a health hazard The electrical characteristics of PVC such as electrical insulating
+        properties or dielectric constant are excellent.To express electrical insulating properties,
+        volume resistivity or dielectric strength is widely used as an index. The volume resistivity
+        is expressed in terms of electrical resistance calculated per unit volume of the test piece.
+        The dielectric strength is expressed in terms of the magnitude of voltage withstood without
+        destruction of the test piece when a specified amount of voltage is applied for a specified
+        period of time. In both cases, a higher value means better electrical characteristics.
+        The volume resistivity of PVC products is slightly lower than those of olefin products,
+         but since higher fire resistant properties are required for electrical components,
+        PVC is used widely in a variety of applications such as electric cables for residential buildings,
+        vehicles, household electrical appliances, cable coverings, insulating tapes, switch boxes,
+        wire coverings, and protecting tubes for power and telecommunications cables. but since
+        higher fire resistant properties are required for electrical components, PVC is used widely
+        in a variety of applications such as electric cables for residential buildings, vehicles,
+        household electrical appliances, cable coverings, insulating tapes, switch boxes, wire coverings,
+        and protecting tubes for power and telecommunications cables.</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="den_display_text1">Raw Materials Name</string>
+    <string name="den_display_text2">Raw Materials Density</string>
+    <string name="den_display_text3">Phr</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="den_cal">Raw Material Names</string>
+    <string name="rn1">Resin K-70 &amp; K-67</string>
+    <string name="rn2">Calcium Carbonate</string>
+    <string name="rn3">Aluminum Hydroxide</string>
+    <string name="rn4">Magnesium Hydroxide</string>
+    <string name="rn5">Tribasic Lead Stearate</string>
+    <string name="rn6">Di basic Lead Sulphate</string>
+    <string name="rn7">Lead Stearate</string>
+    <string name="rn8">Calcium Stearate</string>
+    <string name="rn9">Finalux GCC-10</string>
+    <string name="rn10">Antimony Trioxide</string>
+    <string name="rn11">Zinc Borate</string>
+    <string name="rn12">Molybednum Trioxide</string>
+    <string name="rn13">Paraffin Wax</string>
+    <string name="rn14">Dioctyl Pthalate</string>
+    <string name="rn15">Chlorinated Wax</string>
+    <string name="rn16">Epoxy Oil</string>
+    <string name="rn17">TOTM</string>
+    <string name="rn18">CaZn Stabilizers</string>
+    <string name="rn19">Calcined Clay</string>
+    <string name="rn20">Stearic Acid</string>
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="den_cal1">Raw Material Density</string>
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="den_cal2">Phr</string>
+    ///////////////Density Calculation/////////////////
+    <string name="density_calculation">Specific Gravity of the Compound</string>
+    <string name="display">Show Compound Gravity</string>
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="price_display_text1">Raw Materials Name</string>
+    <string name="price_display_text2">Raw Materials Price</string>
+    <string name="price_display_text3">Phr</string>
+    <string name="price_display_text4">Parts per 100 of Resin</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////Price Calculation/////////////////
+    <string name="price_calculation">Price of the Compound</string>
+    <string name="display1">Show Compound Price</string>
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="price">Price</string>
+    <string name="phr">Parts per hundred Resin</string>
+    <string name="about_compound">Click to find Compound Gravity &amp; Price</string>
+    <string name="Complete_Batch_Size">Complete Batch Size</string>
+
+    <string name="raw_material_quantity">Raw Material Quantity(Kgs)</string>
+    <string name="raw_material_contribution">Raw Material Contribution</string>
+    <string name="bom_calculation">BOM Calculation</string>
+    <string name="click_to_calculate_bom">Click here to Calculate the BOM</string>
+    <string name="Rs">\u20B9</string>
+    <string name="total_bom">BOM SUM</string>
+    <string name="total_bom_size">BOM Size  Kgs</string>
+
+
+</resources>
