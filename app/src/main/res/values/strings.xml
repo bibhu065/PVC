@@ -103,5 +103,7 @@
     <string name="total_bom">BOM SUM</string>
     <string name="total_bom_size">BOM Size  Kgs</string>
 
+    <string name="resin_value">100</string>
+
 
 </resources>
