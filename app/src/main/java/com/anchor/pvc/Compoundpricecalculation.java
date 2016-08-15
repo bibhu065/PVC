@@ -70,46 +70,61 @@ public class Compoundpricecalculation extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 try {
-                num1 = Float.parseFloat(d1.getText().toString());
+                    if(  (d1.getText().toString().equals("")) ||d2.getText().toString().equals("")
+                            ||d3.getText().toString().equals("")||d4.getText().toString().equals("")
+                            ||d5.getText().toString().equals("")||d6.getText().toString().equals("")
+                            ||d7.getText().toString().equals("")||d8.getText().toString().equals("")
+                            ||d9.getText().toString().equals("")||d10.getText().toString().equals("")
+                            ||d11.getText().toString().equals("")||d12.getText().toString().equals("")
+                            ||d13.getText().toString().equals("")|d14.getText().toString().equals("")
+                            ||d15.getText().toString().equals("")|d16.getText().toString().equals("")
+                            ||d17.getText().toString().equals("")|d18.getText().toString().equals("")
+                            ||d19.getText().toString().equals("")||d20.getText().toString().equals("") )
+                    {
+
+                        num1=65.630f;  num2=12.500f;    num3=32.000f;      num4=68.000f;
+                        num5=139.000f; num6=151.000f;   num7=122.000f;     num8=113.000f;
+                        num9=155.000f; num10=458.000f;  num11=140.000f;    num12=1325.000f;
+                        num13=129.000f;  num14=62.000f; num15=34.000f;     num16=74.500f;
+                        num17=160.000f;  num18=95.000f; num19=24.500f;     num20=72.000f;
+
+                    }
+
+                    else
+                    {
+                        num1 = Float.parseFloat(d1.getText().toString());num2 = Float.parseFloat(d2.getText().toString());
+                        num3 = Float.parseFloat(d3.getText().toString());num4 = Float.parseFloat(d4.getText().toString());
+                        num5 = Float.parseFloat(d5.getText().toString());num6 = Float.parseFloat(d6.getText().toString());
+                        num7 = Float.parseFloat(d7.getText().toString());num8 = Float.parseFloat(d8.getText().toString());
+                        num9 = Float.parseFloat(d9.getText().toString());num10 = Float.parseFloat(d10.getText().toString());
+                        num11 = Float.parseFloat(d11.getText().toString());num12 = Float.parseFloat(d12.getText().toString());
+                        num13 = Float.parseFloat(d13.getText().toString());num14 = Float.parseFloat(d14.getText().toString());
+                        num15 = Float.parseFloat(d15.getText().toString());num16 = Float.parseFloat(d16.getText().toString());
+                        num17 = Float.parseFloat(d17.getText().toString());num18 = Float.parseFloat(d18.getText().toString());
+                        num19 = Float.parseFloat(d19.getText().toString());num20 = Float.parseFloat(d20.getText().toString());
+                    }
+
                 nu1 = Float.parseFloat(ph1.getText().toString());
-                num2 = Float.parseFloat(d2.getText().toString());
                 nu2 = Float.parseFloat(ph2.getText().toString());
-                num3 = Float.parseFloat(d3.getText().toString());
                 nu3 = Float.parseFloat(ph3.getText().toString());
-                num4 = Float.parseFloat(d4.getText().toString());
                 nu4 = Float.parseFloat(ph4.getText().toString());
-                num5 = Float.parseFloat(d5.getText().toString());
                 nu5 = Float.parseFloat(ph5.getText().toString());
-                num6 = Float.parseFloat(d6.getText().toString());
                 nu6 = Float.parseFloat(ph6.getText().toString());
-                num7 = Float.parseFloat(d7.getText().toString());
                 nu7 = Float.parseFloat(ph7.getText().toString());
-                num8 = Float.parseFloat(d8.getText().toString());
                 nu8 = Float.parseFloat(ph8.getText().toString());
-                num9 = Float.parseFloat(d9.getText().toString());
                 nu9 = Float.parseFloat(ph9.getText().toString());
-                num10 = Float.parseFloat(d10.getText().toString());
                 nu10 = Float.parseFloat(ph10.getText().toString());
-                num11 = Float.parseFloat(d11.getText().toString());
                 nu11 = Float.parseFloat(ph11.getText().toString());
-                num12 = Float.parseFloat(d12.getText().toString());
                 nu12 = Float.parseFloat(ph12.getText().toString());
-                num13 = Float.parseFloat(d13.getText().toString());
                 nu13 = Float.parseFloat(ph13.getText().toString());
-                num14 = Float.parseFloat(d14.getText().toString());
                 nu14 = Float.parseFloat(ph14.getText().toString());
-                num15 = Float.parseFloat(d15.getText().toString());
                 nu15 = Float.parseFloat(ph15.getText().toString());
-                num16 = Float.parseFloat(d16.getText().toString());
                 nu16 = Float.parseFloat(ph16.getText().toString());
-                num17 = Float.parseFloat(d17.getText().toString());
                 nu17 = Float.parseFloat(ph17.getText().toString());
-                num18 = Float.parseFloat(d18.getText().toString());
                 nu18 = Float.parseFloat(ph18.getText().toString());
-                num19 = Float.parseFloat(d19.getText().toString());
                 nu19 = Float.parseFloat((ph19.getText().toString()));
-                num20 = Float.parseFloat(d20.getText().toString());
                 nu20 = Float.parseFloat((ph20.getText().toString()));
+
                 result = ((nu1 * num1) + (nu2 * num2) + (nu3 * num3) + (nu4 * num4) + (nu5 * num5) + (nu6 * num6)
                         + (nu7 * num7) + (nu8 * num8) + (nu9 * num9) + (nu10 * num10) + (nu11 * num11) + (nu12 * num12)
                         + (nu13 * num13) + (nu14 * num14) + (nu15 * num15) + (nu16 * num16) + (nu17 * num17) + (nu18 * num18)

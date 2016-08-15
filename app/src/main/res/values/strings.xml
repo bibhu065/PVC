@@ -12,7 +12,10 @@
     <string name="bt_10">About Me</string>
     <string name="int_1">History of PVC</string>
     <string name="title_activity_introduction">Introduction</string>
-    <string name="Contact_us">Bibhu</string>
+    <string name="Contact_us">This is Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
+        in Anchor by Panasonic.  I am a Plastic Engineer,graduated from CIPET,Bhubaneswar.I am an eager Android
+        learner.Just Implemented some basic Ideas about PVC Compounding requried for Wires &amp; Cable If any
+        Suggestion for the App improvement then Contact me on below mention ID. </string>
 
     <string name="history">History of PVC(Poly Vinyl Chloride)</string>
     <string name="history1">Polyvinyl chloride or PVC was first created by the German chemist
@@ -95,15 +98,26 @@
     <string name="about_compound">Click to find Compound Gravity &amp; Price</string>
     <string name="Complete_Batch_Size">Complete Batch Size</string>
 
-    <string name="raw_material_quantity">Raw Material Quantity(Kgs)</string>
-    <string name="raw_material_contribution">Raw Material Contribution</string>
-    <string name="bom_calculation">BOM Calculation</string>
-    <string name="click_to_calculate_bom">Click here to Calculate the BOM</string>
+    <string name="raw_material_quantity">RM Quantity(Kgs)</string>
+    <string name="raw_material_contribution">Raw Material Contribution in BOM</string>
+    <string name="bom_calculation">PHR Details</string>
+    <string name="click_to_calculate_bom">Calculate the BOM</string>
     <string name="Rs">\u20B9</string>
     <string name="total_bom">BOM SUM</string>
-    <string name="total_bom_size">BOM Size  Kgs</string>
-
+    <string name="total_bom_size">BOM SIZE</string>
+    <string name="bom_Value">BOM Value</string>
+    <string name="phr_value">PHR Value</string>
     <string name="resin_value">100</string>
+
+    <string name="base">FR Base</string>
+    <string name="skin">SKIN</string>
+    <string name="telephonest">Telephone ST</string>
+    <string name="frlsh">FRLSH</string>
+    <string name="basic_formulation"> Swipe from left to right to see Basic Compound Formulation Details</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 
 
 </resources>

@@ -2,6 +2,7 @@ package com.anchor.pvc;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -59,22 +60,23 @@ public class Compounddensitypricecalculation extends AppCompatActivity
 
     }
     private void initializeAll() {
-        d1= (EditText) findViewById(R.id.rd1);  p1= (EditText) findViewById(R.id.rp1);   ph1= (EditText) findViewById(R.id.phr1);
+        d1= (EditText) findViewById(R.id.rd1);p1= (EditText) findViewById(R.id.rp1);   ph1= (EditText) findViewById(R.id.phr1);
+
         d2= (EditText) findViewById(R.id.rd2);  p2= (EditText) findViewById(R.id.rp2);   ph2= (EditText) findViewById(R.id.phr2);
         d3= (EditText) findViewById(R.id.rd3);  p3= (EditText) findViewById(R.id.rp3);   ph3= (EditText) findViewById(R.id.phr3);
-        d4= (EditText) findViewById(R.id.rd4);  p4= (EditText) findViewById(R.id.rp4);   ph4= (EditText) findViewById(R.id.phr4);
+        d4= (EditText) findViewById(R.id.rd4); p4= (EditText) findViewById(R.id.rp4);   ph4= (EditText) findViewById(R.id.phr4);
         d5= (EditText) findViewById(R.id.rd5);  p5= (EditText) findViewById(R.id.rp5);   ph5= (EditText) findViewById(R.id.phr5);
         d6= (EditText) findViewById(R.id.rd6);  p6= (EditText) findViewById(R.id.rp6);   ph6= (EditText) findViewById(R.id.phr6);
         d7= (EditText) findViewById(R.id.rd7);  p7= (EditText) findViewById(R.id.rp7);   ph7= (EditText) findViewById(R.id.phr7);
-        d8= (EditText) findViewById(R.id.rd8);  p8= (EditText) findViewById(R.id.rp8);   ph8= (EditText) findViewById(R.id.phr8);
-        d9= (EditText) findViewById(R.id.rd9);  p9= (EditText) findViewById(R.id.rp9);   ph9= (EditText) findViewById(R.id.phr9);
+        d8= (EditText) findViewById(R.id.rd8);p8= (EditText) findViewById(R.id.rp8);   ph8= (EditText) findViewById(R.id.phr8);
+        d9= (EditText) findViewById(R.id.rd9); p9= (EditText) findViewById(R.id.rp9);   ph9= (EditText) findViewById(R.id.phr9);
         d10= (EditText) findViewById(R.id.rd10);  p10= (EditText) findViewById(R.id.rp10);  ph10= (EditText) findViewById(R.id.phr10);
         d11= (EditText) findViewById(R.id.rd11);  p11= (EditText) findViewById(R.id.rp11);  ph11= (EditText) findViewById(R.id.phr11);
         d12= (EditText) findViewById(R.id.rd12);  p12= (EditText) findViewById(R.id.rp12);  ph12= (EditText) findViewById(R.id.phr12);
         d13= (EditText) findViewById(R.id.rd13);  p13= (EditText) findViewById(R.id.rp13);  ph13= (EditText) findViewById(R.id.phr13);
         d14= (EditText) findViewById(R.id.rd14);  p14= (EditText) findViewById(R.id.rp14);  ph14= (EditText) findViewById(R.id.phr14);
         d15= (EditText) findViewById(R.id.rd15);  p15= (EditText) findViewById(R.id.rp15);  ph15= (EditText) findViewById(R.id.phr15);
-        d16= (EditText) findViewById(R.id.rd16);  p16= (EditText) findViewById(R.id.rp16);  ph16= (EditText) findViewById(R.id.phr16);
+        d16= (EditText) findViewById(R.id.rd16); p16= (EditText) findViewById(R.id.rp16);  ph16= (EditText) findViewById(R.id.phr16);
         d17= (EditText) findViewById(R.id.rd17);  p17= (EditText) findViewById(R.id.rp17);  ph17= (EditText) findViewById(R.id.phr17);
         d18= (EditText) findViewById(R.id.rd18);  p18= (EditText) findViewById(R.id.rp18);  ph18= (EditText) findViewById(R.id.phr18);
         d19=(EditText) findViewById(R.id.rd19);   p19= (EditText) findViewById(R.id.rp19);  ph19= (EditText) findViewById(R.id.phr19);

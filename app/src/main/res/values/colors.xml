@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="applicationfrontpage">#00FFFF</color>
     <color name="applicaionfrontpagebackground">#0000FF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
 </resources>

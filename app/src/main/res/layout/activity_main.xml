@@ -30,8 +30,8 @@
         android:layout_width="@dimen/border_width"
         android:layout_height="@dimen/border_height"
         android:id="@+id/rl2"
-        android:layout_toRightOf="@id/rl1"
-        android:layout_marginLeft="15sp">
+        android:layout_toEndOf="@id/rl1"
+        android:layout_marginStart="15sp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -58,9 +58,9 @@
         android:layout_width="@dimen/border_width"
         android:layout_height="@dimen/border_height"
         android:id="@+id/rl4"
-        android:layout_toRightOf="@id/rl3"
+        android:layout_toEndOf="@id/rl3"
         android:layout_below="@id/rl2"
-        android:layout_marginLeft="15sp"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="15sp"
         >
         <Button
@@ -93,9 +93,9 @@
         android:layout_height="@dimen/border_height"
         android:id="@+id/rl6"
         android:layout_below="@id/rl4"
-        android:layout_toRightOf="@id/rl5"
+        android:layout_toEndOf="@id/rl5"
         android:layout_marginTop="15sp"
-        android:layout_marginLeft="15sp"
+        android:layout_marginStart="15sp"
         >
         <Button
             android:layout_width="match_parent"
@@ -127,8 +127,8 @@
         android:layout_height="@dimen/border_height"
         android:id="@+id/rl8"
         android:layout_below="@id/rl6"
-        android:layout_toRightOf="@id/rl7"
-        android:layout_marginLeft="15sp"
+        android:layout_toEndOf="@id/rl7"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="15sp"
         >
         <Button
@@ -161,8 +161,8 @@
         android:layout_height="@dimen/border_height"
         android:id="@+id/rl10"
         android:layout_below="@id/rl8"
-        android:layout_toRightOf="@id/rl9"
-        android:layout_marginLeft="15sp"
+        android:layout_toEndOf="@id/rl9"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="15sp"
         >
         <Button

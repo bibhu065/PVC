@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -10,13 +10,18 @@
     tools:context="com.anchor.pvc.Compounddensitypricecalculation"
     android:background="@color/applicationfrontpage"
     android:layout_weight="3"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     >
     <HorizontalScrollView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TableLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            >
             <TableRow>
                 <TextView
                 android:layout_width="180sp"
@@ -25,39 +30,39 @@
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="17sp"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/rn"
                 android:id="@+id/rn"
                 />
                 <TextView
-                android:layout_width="150sp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/den_display_text2"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="17sp"
-                android:textAlignment="center"
+                android:layout_marginStart="10sp"
                 android:id="@+id/rd"
                 android:labelFor="@+id/rd"/>
                 <TextView
-                android:layout_width="150sp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/price_display_text2"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="17sp"
-                android:textAlignment="center"
+                android:layout_marginStart="10sp"
                 android:id="@+id/pr"
                 android:labelFor="@+id/pr"
                 />
                 <TextView
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/price_display_text4"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="17sp"
-                android:textAlignment="center"
+                android:layout_marginStart="10sp"
                 android:id="@+id/ph"
                 android:labelFor="@+id/ph"
                 />
@@ -71,39 +76,39 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/rn1"
                 android:textColor="#000"
-                android:textAlignment="center"
+
                 android:layout_marginTop="10sp"
                 android:id="@+id/rn1"
                 android:paddingTop="10sp"
                 android:labelFor="@+id/rn1"
                 />
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/rd1"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/rd1"
                 android:hint="1.400"
                 android:text="1.400"/>
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/rp1"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/rp1"
                 android:hint="65.630"
                 android:text="65.630"/>
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/phr1"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/phr1"/>
             </TableRow>
             <TableRow
@@ -116,38 +121,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn2"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn2"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn2"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd2"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd2"
                     android:hint="2.700"
                     android:text="2.700"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp2"
-                    android:textAlignment="center"
+
                     android:hint="12.500"
                     android:text="12.500"
                     android:labelFor="@+id/rp2"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr2"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr2"/>
 
             </TableRow>
@@ -161,38 +166,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn3"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn3"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn3"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd3"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd3"
                     android:hint="2.410"
                     android:text="2.410"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp3"
-                    android:textAlignment="center"
+
                     android:hint="32.000"
                     android:text="32.000"
                     android:labelFor="@+id/rp2"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr3"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr3"/>
 
             </TableRow>
@@ -206,38 +211,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn4"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn4"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn4"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd4"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd4"
                     android:hint="2.600"
                     android:text="2.600"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp4"
-                    android:textAlignment="center"
+
                     android:hint="68.000"
                     android:text="68.000"
                     android:labelFor="@+id/rp2"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr4"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr4"/>
 
             </TableRow>
@@ -251,38 +256,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn5"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn5"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn5"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd5"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd5"
                     android:hint="7.200"
                     android:text="7.200"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp5"
-                    android:textAlignment="center"
+
                     android:hint="139.000"
                     android:text="139.000"
                     android:labelFor="@+id/rp5"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr5"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr5"/>
 
             </TableRow>
@@ -296,38 +301,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn6"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn6"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn6"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd6"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd6"
                     android:hint="1.900"
                     android:text="1.900"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp6"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp6"
                     android:hint="151.000"
                     android:text="151.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr6"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr6"/>
 
             </TableRow>
@@ -341,38 +346,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn7"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn7"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn7"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd7"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd7"
                     android:hint="1.350"
                     android:text="1.350"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp7"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp7"
                     android:hint="122.000"
                     android:text="122.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr7"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr7"/>
 
             </TableRow>
@@ -386,38 +391,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn8"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn8"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn8"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd8"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd8"
                     android:hint="1.110"
                     android:text="1.110"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp8"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp8"
                     android:hint="113.000"
                     android:text="113.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr8"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr8"/>
                 </TableRow>
                 <TableRow
@@ -430,38 +435,38 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/rn9"
                         android:textColor="#000"
-                        android:textAlignment="center"
+
                         android:id="@+id/rn9"
                         android:layout_marginTop="10sp"
                         android:labelFor="@+id/rn9"
                         />
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/rd9"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/rd9"
                         android:hint="1.000"
                         android:text="1.000"/>
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/rp9"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/rp9"
                         android:hint="155.000"
                         android:text="155.000"/>
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/phr9"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/phr9"/>
 
 
@@ -476,38 +481,38 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/rn10"
                         android:textColor="#000"
-                        android:textAlignment="center"
+
                         android:id="@+id/rn10"
                         android:layout_marginTop="10sp"
                         android:labelFor="@+id/rn10"
                         />
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/rd10"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/rd10"
                         android:hint="5.500"
                         android:text="5.500"/>
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/rp10"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/rp10"
                         android:hint="458.000"
                         android:text="458.000"/>
                     <EditText
-                        android:layout_width="100sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:inputType="numberDecimal"
                         android:layout_marginLeft="10sp"
                         android:id="@+id/phr10"
-                        android:textAlignment="center"
+
                         android:labelFor="@+id/phr10"/>
                     </TableRow>
                     <TableRow
@@ -520,38 +525,38 @@
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="@string/rn11"
                             android:textColor="#000"
-                            android:textAlignment="center"
+
                             android:id="@+id/rn11"
                             android:layout_marginTop="10sp"
                             android:labelFor="@+id/rn11"
                             />
                         <EditText
-                            android:layout_width="100sp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:inputType="numberDecimal"
                             android:layout_marginLeft="10sp"
                             android:id="@+id/rd11"
-                            android:textAlignment="center"
+
                             android:labelFor="@+id/rd11"
                             android:hint="3.300"
                             android:text="3.300"/>
                         <EditText
-                            android:layout_width="100sp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:inputType="numberDecimal"
                             android:layout_marginLeft="10sp"
                             android:id="@+id/rp11"
-                            android:textAlignment="center"
+
                             android:labelFor="@+id/rp11"
                             android:hint="140.000"
                             android:text="140.000"/>
                         <EditText
-                            android:layout_width="100sp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:inputType="numberDecimal"
                             android:layout_marginLeft="10sp"
                             android:id="@+id/phr11"
-                            android:textAlignment="center"
+
                             android:labelFor="@+id/phr11"/>
 
                     </TableRow>
@@ -565,38 +570,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn12"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn12"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn12"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd12"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd121"
                     android:hint="4.600"
                     android:text="4.600"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp12"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp12"
                     android:hint="1325.000"
                     android:text="1325.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr12"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr12"/>
 
             </TableRow>
@@ -610,38 +615,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn13"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn13"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn13"
                     />
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd13"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd13"
                     android:hint="0.920"
                     android:text="0.920"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp13"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp13"
                     android:hint="129.000"
                     android:text="129.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr13"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr13"/>
 
             </TableRow>
@@ -654,37 +659,37 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/rn14"
                 android:textColor="#000"
-                android:textAlignment="center"
+
                 android:id="@+id/rn14"
                 android:layout_marginTop="10sp"
                 android:labelFor="@+id/rn14"/>
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/rd14"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/rd14"
                 android:hint="0.990"
                 android:text="0.990"/>
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/rp14"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/rp14"
                 android:hint="62.000"
                 android:text="62.000"/>
                 <EditText
-                android:layout_width="100sp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:layout_marginLeft="10sp"
                 android:id="@+id/phr14"
-                android:textAlignment="center"
+
                 android:labelFor="@+id/phr14"/>
         </TableRow>
             <TableRow
@@ -696,37 +701,37 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn15"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn15"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn15"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd15"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd15"
                     android:hint="1.300"
                     android:text="1.300"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp15"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp15"
                     android:hint="34.000"
                     android:text="34.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr15"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr15"/>
             </TableRow>
             <TableRow
@@ -738,37 +743,37 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn16"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn16"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn16"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd16"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd16"
                     android:hint="1.000"
                     android:text="1.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp16"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp16"
                     android:hint="74.500"
                     android:text="74.500"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr16"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr16"/>
             </TableRow>
             <TableRow
@@ -780,37 +785,37 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn17"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn17"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn17"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd17"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd17"
                     android:hint="0.992"
                     android:text="0.992"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp17"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp17"
                     android:hint="160.000"
                     android:text="160.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr17"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr17"/>
             </TableRow>
             <TableRow
@@ -822,37 +827,37 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn18"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn18"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn18"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd18"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd18"
                     android:hint="1.600"
                     android:text="1.600"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp18"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp18"
                     android:hint="95.000"
                     android:text="95.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr18"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr18"/>
             </TableRow>
             <TableRow
@@ -864,37 +869,37 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn19"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn19"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn19"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd19"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd19"
                     android:hint="2.700"
                     android:text="2.700"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp19"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp19"
                     android:hint="24.500"
                     android:text="24.500"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr19"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr19"/>
             </TableRow>
             <TableRow
@@ -907,42 +912,42 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/rn20"
                     android:textColor="#000"
-                    android:textAlignment="center"
+
                     android:id="@+id/rn20"
                     android:layout_marginTop="10sp"
                     android:labelFor="@+id/rn20"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rd20"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rd20"
                     android:hint="0.900"
                     android:text="0.900"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/rp20"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/rp20"
                     android:hint="72.000"
                     android:text="72.000"/>
                 <EditText
-                    android:layout_width="100sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_marginLeft="10sp"
                     android:id="@+id/phr20"
-                    android:textAlignment="center"
+
                     android:labelFor="@+id/phr20"/>
             </TableRow>
             <LinearLayout
-                android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/lll"
                 android:orientation="horizontal"
                 android:layout_below="@+id/tr20"
@@ -954,48 +959,49 @@
                 android:text="@string/about_compound"
                 android:layout_marginLeft="0sp"
                 android:id="@+id/btcal"
-                android:padding="15sp"
-                android:paddingBottom="10sp"
                 android:textSize="13sp"
                 android:textStyle="bold"
                 android:textColor="#ff0"
+                android:layout_marginBottom="50sp"
+                android:textAlignment="center"
+                android:gravity="center"
                 android:background="@color/applicaionfrontpagebackground"
                 />
                 <TextView
-                android:layout_width="135sp"
+                android:layout_width="170sp"
                 android:layout_height="match_parent"
                 android:id="@+id/showgravity"
                 android:text="@string/density_calculation"
-                android:textAlignment="center"
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:textColor="#000"
+                android:layout_marginBottom="50sp"
+                android:textAlignment="center"
+                android:gravity="center"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:background="#ff0"
                 android:layout_marginLeft="15sp"/>
                 <TextView
-                android:layout_width="135sp"
+                android:layout_width="150sp"
                 android:layout_height="match_parent"
                 android:id="@+id/showprice"
                 android:text="@string/price_calculation"
                 android:textAlignment="center"
-                android:layout_gravity="center"
                 android:gravity="center"
+                android:layout_marginBottom="50sp"
                 android:textColor="#000"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:background="#ff0"
                 android:layout_marginLeft="15sp"/>
                 <TextView
-                    android:layout_width="100sp"
+                    android:layout_width="150sp"
                     android:layout_height="match_parent"
                     android:id="@+id/batchsize"
                     android:text="@string/Complete_Batch_Size"
                     android:textAlignment="center"
-                    android:layout_gravity="center"
                     android:gravity="center"
                     android:textColor="#000"
+                    android:layout_marginBottom="50sp"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     android:background="#ff0"

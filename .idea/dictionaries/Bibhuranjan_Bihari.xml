@@ -8,16 +8,24 @@
       <w>bomsum</w>
       <w>btcal</w>
       <w>compounddensitypricecalculation</w>
+      <w>formulationcontent</w>
+      <w>formulationnav</w>
+      <w>frlsh</w>
       <w>hzsv</w>
       <w>inttext</w>
       <w>prbt</w>
       <w>prdtbt</w>
       <w>prres</w>
+      <w>prresult</w>
+      <w>rbom</w>
       <w>rphr</w>
       <w>showgravity</w>
       <w>showgrvity</w>
       <w>showprice</w>
       <w>stearic</w>
+      <w>telehphonest</w>
+      <w>telephonest</w>
+      <w>textview</w>
     </words>
   </dictionary>
 </component>

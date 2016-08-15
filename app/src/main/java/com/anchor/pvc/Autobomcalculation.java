@@ -31,6 +31,7 @@ public class Autobomcalculation extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_autobomcalculation);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 
         initializeAll();
         calculate.setOnClickListener(new View.OnClickListener()
@@ -156,11 +157,7 @@ public class Autobomcalculation extends AppCompatActivity
                     ||et19.getText().toString().equals("")||et20.getText().toString().equals("") )
             {
 
-                num1 = 0.000f;     num6=0.000f;      num11=0.000f;     num16=0.000f;
-                num2=0.000f;       num7=0.000f;      num12=0.000f;     num17=0.000f;
-                num3=0.000f;       num8=0.000f;      num13=0.000f;     num18=0.000f;
-                num4=0.000f;       num9=0.000f;      num14=0.000f;     num19=0.000f;
-                num5=0.000f;       num10=0.000f;     num15=0.000f;     num20=0.000f;
+                Toast.makeText(getApplicationContext(),"Please Fill all the Values",Toast.LENGTH_SHORT).show();
 
             }
             else
