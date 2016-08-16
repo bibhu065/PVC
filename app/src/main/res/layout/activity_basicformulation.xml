@@ -9,30 +9,43 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <!-- This LinearLayout represents the contents of the screen  -->
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        tools:context="com.anchor.pvc.Basicformulation">
+        android:background="#26c6da">
+        <LinearLayout
+            android:id="@+id/llcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#26c6da">
 
-        <android.support.design.widget.AppBarLayout
+            <!-- The main content view where fragments are loaded -->
+            <FrameLayout
+                android:id="@+id/flContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#26c6da"/>
+        </LinearLayout>
+
+    <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/AppTheme.AppBarOverlay">
-
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                android:fitsSystemWindows="true"
                 android:background="?attr/colorPrimary"
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
-
         </android.support.design.widget.AppBarLayout>
-
         <include layout="@layout/formulationcontent_main" />
-
     </android.support.design.widget.CoordinatorLayout>
 
+    <!-- The navigation drawer that comes from the left -->
+    <!-- Note that `android:layout_gravity` needs to be set to 'start' -->
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
         android:layout_height="match_parent"

@@ -1,21 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="FR Base Item Names">
+        <menu>
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/base"
-            android:title="@string/base"
-            android:icon="@drawable/ic_home"/>
+            android:id="@+id/base1"
+            android:title="@string/base1"
+            android:icon="@drawable/ic_exit"/>
         <item
-            android:id="@+id/skin"
-            android:title="@string/skin"
-            android:icon="@drawable/ic_setting"/>
+            android:id="@+id/base2"
+            android:title="@string/base2"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base3"
+            android:title="@string/base3"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base4"
+            android:title="@string/base4"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base5"
+            android:title="@string/base5"
+            android:icon="@drawable/ic_exit"/>
+        </group>
+        </menu>
+        </item>
+
+
+         <item android:title="Non FR SKIN Item Names">
+             <menu>
+         <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/skin1"
+            android:title="@string/skin1"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/skin2"
+            android:title="@string/skin2"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/skin3"
+            android:title="@string/skin3"
+            android:icon="@drawable/ic_exit"/>
+         </group>
+             </menu>
+         </item>
+
+    <item android:title="Sheathing Item Names">
+        <menu>
+    <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/telehphonest"
             android:title="@string/telephonest"
-            android:icon="@drawable/ic_trash"/>
+            android:icon="@drawable/ic_exit"/>
         <item
             android:id="@+id/frlsh"
             android:title="@string/frlsh"
             android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/frst"
+            android:title="@string/sheathing"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/nfrst"
+            android:title="@string/sheathing1"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/frlshst"
+            android:title="@string/sheathing2"
+            android:icon="@drawable/ic_exit"/>
     </group>
+        </menu>
+    </item>
+        <item
+            android:id="@+id/return_menu"
+            android:title="@string/return_home"
+            android:icon="@drawable/ic_home"/>
+
 </menu>

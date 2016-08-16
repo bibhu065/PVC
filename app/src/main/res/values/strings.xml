@@ -14,7 +14,7 @@
     <string name="title_activity_introduction">Introduction</string>
     <string name="Contact_us">This is Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
         in Anchor by Panasonic.  I am a Plastic Engineer,graduated from CIPET,Bhubaneswar.I am an eager Android
-        learner.Just Implemented some basic Ideas about PVC Compounding requried for Wires &amp; Cable If any
+        learner.Just Implemented some basic Ideas about PVC Compounding requried for Wires &amp; Cable. If any
         Suggestion for the App improvement then Contact me on below mention ID. </string>
 
     <string name="history">History of PVC(Poly Vinyl Chloride)</string>
@@ -52,7 +52,7 @@
     <string name="den_display_text1">Raw Materials Name</string>
     <string name="den_display_text2">Raw Materials Density</string>
     <string name="den_display_text3">Phr</string>
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <!--- Raw Material Items Names -->
     <string name="den_cal">Raw Material Names</string>
     <string name="rn1">Resin K-70 &amp; K-67</string>
     <string name="rn2">Calcium Carbonate</string>
@@ -74,6 +74,7 @@
     <string name="rn18">CaZn Stabilizers</string>
     <string name="rn19">Calcined Clay</string>
     <string name="rn20">Stearic Acid</string>
+    <string name="rn21">Fine Pastaid-T</string>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -109,15 +110,30 @@
     <string name="phr_value">PHR Value</string>
     <string name="resin_value">100</string>
 
-    <string name="base">FR Base</string>
-    <string name="skin">SKIN</string>
-    <string name="telephonest">Telephone ST</string>
+    <!-- Nav Drawer Menu Items -->
+    <string name="base1">FR Base 1.48 Sp.Gravity</string>
+    <string name="base2">FR Base 1.51 Sp.Gravity</string>
+    <string name="base3">FR Base LLS 1.52 (700 mpm)</string>
+    <string name="base4">FR Base HLS 1.52(900 mpm)</string>
+    <string name="base5">Non FR Base Type D 1.52 Sp.Gravity</string>
+    <string name="skin1">SKIN HLS (700 mpm)</string>
+    <string name="skin2">SKIN LLS (300 mpm)</string>
+    <string name="skin3">Transparent SKIN</string>
+    <string name="telephonest">Telephone Sheathing</string>
+    <string name="sheathing">FR Sheathing</string>
+    <string name="sheathing1">Non FR Sheathing</string>
     <string name="frlsh">FRLSH</string>
+    <string name="sheathing2">FRLSH Sheathing</string>
+    <string name="return_home">Return to Main Menu</string>
+
     <string name="basic_formulation"> Swipe from left to right to see Basic Compound Formulation Details</string>
 
     <string name="action_settings">Settings</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

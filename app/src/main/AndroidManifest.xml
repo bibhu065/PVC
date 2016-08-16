@@ -13,12 +13,14 @@
             android:normalScreens="true"
             android:largeScreens="true"
             android:xlargeScreens="true"/>
-        <activity android:name=".MainActivity" android:windowSoftInputMode="stateHidden|adjustPan" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppThemeWithActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity android:name=".Introduction" />
