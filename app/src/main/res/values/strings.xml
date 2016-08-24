@@ -75,8 +75,8 @@
     <string name="rn19">Calcined Clay</string>
     <string name="rn20">Stearic Acid</string>
     <string name="rn21">Fine Pastaid-T</string>
-    <string name="rn22">NPP</string>
-    
+    <string name="rn22">Non Pthalate Plasticizer</string>
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -139,6 +139,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Text Related to Expected output from the formulations -->
+
+    <string name="base1_details">Expected Out put from the above Formulation</string>
 
 
 </resources>
