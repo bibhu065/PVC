@@ -75,6 +75,8 @@
     <string name="rn19">Calcined Clay</string>
     <string name="rn20">Stearic Acid</string>
     <string name="rn21">Fine Pastaid-T</string>
+    <string name="rn22">NPP</string>
+    
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -111,11 +113,14 @@
     <string name="resin_value">100</string>
 
     <!-- Nav Drawer Menu Items -->
-    <string name="base1">FR Base 1.48 Sp.Gravity</string>
-    <string name="base2">FR Base 1.51 Sp.Gravity</string>
-    <string name="base3">FR Base LLS 1.52 (700 mpm)</string>
-    <string name="base4">FR Base HLS 1.52(900 mpm)</string>
-    <string name="base5">Non FR Base Type D 1.52 Sp.Gravity</string>
+    <string name="base1">FR Base 1.44 Sp.Gravity</string>
+    <string name="base2">FR Base 1.46 Sp.Gravity</string>
+    <string name="base8">FR Base 1.47 Sp.Gravity</string>
+    <string name="base3">FR Base 1.48 Sp.Gravity</string>
+    <string name="base4">FR Base 1.51 Sp.Gravity</string>
+    <string name="base5">FR Base LLS 1.52 (700 mpm)</string>
+    <string name="base6">FR Base HLS 1.52(900 mpm)</string>
+    <string name="base7">Non FR Base Type D 1.52 Sp.Gravity</string>
     <string name="skin1">SKIN HLS (700 mpm)</string>
     <string name="skin2">SKIN LLS (300 mpm)</string>
     <string name="skin3">Transparent SKIN</string>
@@ -129,8 +134,8 @@
     <string name="basic_formulation"> Swipe from left to right to see Basic Compound Formulation Details</string>
 
     <string name="action_settings">Settings</string>
-    <string name="drawer_open">Open</string>
-    <string name="drawer_close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

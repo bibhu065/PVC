@@ -1,136 +1,212 @@
 package com.anchor.pvc;
 
+import android.support.v7.app.AppCompatActivity;
+
+import android.app.FragmentManager;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Basicformulation extends AppCompatActivity {
-    private DrawerLayout drawerLayout;
-    private Toolbar toolbar;
 
+import com.anchor.pvc.fragment.Base1Fragment;
+import com.anchor.pvc.fragment.Base2Fragment;
+import com.anchor.pvc.fragment.Base3Fragment;
+import com.anchor.pvc.fragment.Base4Fragment;
+import com.anchor.pvc.fragment.Base5Fragment;
+import com.anchor.pvc.fragment.Base6Fragment;
+import com.anchor.pvc.fragment.Base7Fragment;
+import com.anchor.pvc.fragment.Base8Fragment;
+import com.anchor.pvc.fragment.FrlshFragment;
+import com.anchor.pvc.fragment.FrlshstFragment;
+import com.anchor.pvc.fragment.FrstFragment;
+import com.anchor.pvc.fragment.NonfrstFragment;
+import com.anchor.pvc.fragment.Skin1Fragment;
+import com.anchor.pvc.fragment.Skin2Fragment;
+import com.anchor.pvc.fragment.Skin3Fragment;
+import com.anchor.pvc.fragment.TelstFragment;
+
+/**
+ * Created by Bibhuranjan Bihari on 8/24/2016.
+ */
+public class Basicformulation extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
+{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basicformulation);
-        // Set a Toolbar to replace the ActionBar.
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        initNavigationDrawer();
-    }
-
-    private void initNavigationDrawer()
-    {
-
-        NavigationView navigationView = (NavigationView)findViewById(R.id.navigation_view);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener()
-        {
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem)
-            {
-
-                int id = menuItem.getItemId();
-                // Create a new fragment and specify the fragment to show based on nav item clicked
-
-
-                switch (id)
-                {
-                    case R.id.base1:
-                        Toast.makeText(getApplicationContext(),"FR Base 1.48 Sp.Gravity",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.base2:
-                        Toast.makeText(getApplicationContext(),"FR Base 1.51 Sp.Gravity",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.base3:
-                        Toast.makeText(getApplicationContext(),"FR Base LLS 1.52 Sp.Gravity(700 mpm)",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.base4:
-                        Toast.makeText(getApplicationContext(),"FR BaseFR Base HLS 1.52 Sp.Gravity(900 mpm)",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.base5:
-                        Toast.makeText(getApplicationContext(),"Non FR Base Type D 1.52 Sp.Gravity",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.skin1:
-                        Toast.makeText(getApplicationContext(),"SKIN High Line Speed(700 mpm)",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.skin2:
-                        Toast.makeText(getApplicationContext(),"SKIN Low Line Speed(300 mpm)",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.skin3:
-                        Toast.makeText(getApplicationContext(),"Transparent SKIN",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.telehphonest:
-                         Toast.makeText(getApplicationContext(),"Telephone ST",Toast.LENGTH_SHORT).show();
-                         drawerLayout.closeDrawers();
-                        break;
-                    case R.id.frst:
-                        Toast.makeText(getApplicationContext(),"FR Sheathing",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.nfrst:
-                        Toast.makeText(getApplicationContext(),"Non FR Sheathing",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.frlsh:
-                        Toast.makeText(getApplicationContext(),"FRLSH",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.frlshst:
-                        Toast.makeText(getApplicationContext(),"FRLSH Sheathing",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        break;
-                    case R.id.return_menu:
-                        Toast.makeText(getApplicationContext(),"Return to Main Menu",Toast.LENGTH_SHORT).show();
-                        drawerLayout.closeDrawers();
-                        finish();
-
-                }
-                return true;
-
+            public void onClick(View view) {
+                Snackbar.make(view, "Send Request for New Formulation", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
 
-        // Insert the fragment by replacing any existing fragment
-
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         View header = navigationView.getHeaderView(0);
         TextView tv_email = (TextView)header.findViewById(R.id.compound_details);
         tv_email.setText("PVC Compounds Name");
-        // Find our drawer view
-        drawerLayout = (DrawerLayout)findViewById(R.id.drawer);
-        // Highlight the selected item has been done by NavigationView
 
+        FragmentManager fm= getFragmentManager();
+        fm.beginTransaction().replace(R.id.content_frame,new Base1Fragment()).commit();
 
-        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close)
-        {
-
-            @Override
-            public void onDrawerClosed(View v)
-            {
-                super.onDrawerClosed(v);
-            }
-
-            @Override
-            public void onDrawerOpened(View v)
-            {
-                super.onDrawerOpened(v);
-            }
-        };
-        drawerLayout.addDrawerListener(actionBarDrawerToggle);
-        actionBarDrawerToggle.syncState();
     }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.formulation_main, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+
+        FragmentManager fm=getFragmentManager();
+        int id = item.getItemId();
+
+        if (id == R.id.base1) {
+            // Handle the Base1 i.e 1.44 specific gravity
+            fm.beginTransaction().replace(R.id.content_frame,new Base1Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.44 Sp.Gravity",Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.base2) {
+            // Handle the Base1 i.e 1.46 specific gravity
+            fm.beginTransaction().replace(R.id.content_frame,new Base2Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.46 Sp.Gravity",Toast.LENGTH_SHORT).show();
+
+        } else if (id == R.id.base3) {
+            // Handle the Base1 i.e 1.48 specific gravity
+            fm.beginTransaction().replace(R.id.content_frame,new Base3Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.48 Sp.Gravity",Toast.LENGTH_SHORT).show();
+
+        } else if (id == R.id.base4) {
+            // Handle the Base1 i.e 1.51 specific gravity
+            fm.beginTransaction().replace(R.id.content_frame,new Base4Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.51 Sp.Gravity up to 700 Line Speed",Toast.LENGTH_SHORT).show();
+
+
+        } else if (id == R.id.base5) {
+            // Handle the Base1 i.e 1.52  specific gravity Low Speed 700 Line Speed
+            fm.beginTransaction().replace(R.id.content_frame,new Base5Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.52 Sp.Gravity up to 700 Line Speed",Toast.LENGTH_SHORT).show();
+
+        } else if (id == R.id.base6) {
+            // Handle the Base1 i.e 1.52  specific gravity High Line Speed 900
+            fm.beginTransaction().replace(R.id.content_frame,new Base6Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.52 Sp.Gravity up to 900 Line Speed",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.base7) {
+            // Handle the Base1 i.e 1.52  specific gravity Non FR Base Type D
+            fm.beginTransaction().replace(R.id.content_frame,new Base7Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"Non FR Base Type D 1.52 Sp.Gravity up to 700 Line Speed",Toast.LENGTH_SHORT).show();
+
+
+        }else if (id == R.id.base8) {
+            // Handle the Base1 i.e 1.47 specific gravity
+            fm.beginTransaction().replace(R.id.content_frame,new Base8Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Base 1.47 Sp.Gravity",Toast.LENGTH_SHORT).show();
+
+
+
+        }else if (id == R.id.skin1) {
+            // Handle the skin1 i.e Line Speed 300
+            fm.beginTransaction().replace(R.id.content_frame,new Skin1Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity up to 700 Line Speed",Toast.LENGTH_SHORT).show();
+
+
+        }else if (id == R.id.skin2) {
+            // Handle the skin1 i.e Line Speed 300
+            fm.beginTransaction().replace(R.id.content_frame,new Skin2Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity upto 300 Line Speed",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.skin3) {
+            // Handle the Transparent SKIN
+            fm.beginTransaction().replace(R.id.content_frame,new Skin3Fragment()).commit();
+            Toast.makeText(getApplicationContext(),"Transparent Skin",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.telehphonest) {
+             // Handle the Telephone Sheathing
+            fm.beginTransaction().replace(R.id.content_frame,new TelstFragment()).commit();
+            Toast.makeText(getApplicationContext(),"Telephone Sheathing",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.frst) {
+            // Handle the  FR Sheathing
+            fm.beginTransaction().replace(R.id.content_frame,new FrstFragment()).commit();
+            Toast.makeText(getApplicationContext(),"FR Sheathing",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.nfrst) {
+            // Handle the Non FR Sheathing
+            fm.beginTransaction().replace(R.id.content_frame,new NonfrstFragment()).commit();
+            Toast.makeText(getApplicationContext(),"Non FR Sheathing",Toast.LENGTH_SHORT).show();
+
+        }else if (id == R.id.frlsh) {
+            // Handle the FRLSH Insulation
+            fm.beginTransaction().replace(R.id.content_frame,new FrlshFragment()).commit();
+            Toast.makeText(getApplicationContext(),"FRLSH Insulation",Toast.LENGTH_SHORT).show();
+
+        }
+        else if (id == R.id.frlshst) {
+            // Handle the FRLSH Sheathing
+            fm.beginTransaction().replace(R.id.content_frame,new FrlshstFragment()).commit();
+            Toast.makeText(getApplicationContext(),"FRLSH Sheathing",Toast.LENGTH_SHORT).show();
+
+        }
+        else if (id == R.id.return_menu) {
+            // Handle the FRLSH Sheathing
+            Toast.makeText(getApplicationContext(),"Return to Main Menu", Toast.LENGTH_SHORT).show();
+            finish();
+
+        }
+
+
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+
 }

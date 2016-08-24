@@ -13,6 +13,10 @@
             android:title="@string/base2"
             android:icon="@drawable/ic_exit"/>
         <item
+            android:id="@+id/base8"
+            android:title="@string/base8"
+            android:icon="@drawable/ic_exit"/>
+        <item
             android:id="@+id/base3"
             android:title="@string/base3"
             android:icon="@drawable/ic_exit"/>
@@ -23,6 +27,14 @@
         <item
             android:id="@+id/base5"
             android:title="@string/base5"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base6"
+            android:title="@string/base6"
+            android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base7"
+            android:title="@string/base7"
             android:icon="@drawable/ic_exit"/>
         </group>
         </menu>
