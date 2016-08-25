@@ -91,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/rn1"
                 android:layout_marginTop="20sp"
-                android:text="@string/rn2"
+                android:text="@string/rn32"
 
 
                 android:textColor="#000" />
@@ -104,7 +104,7 @@
                 android:layout_marginTop="20sp"
 
 
-                android:text="@string/rn3"
+                android:text="@string/rn33"
                 android:textColor="#000" />
 
             <TextView

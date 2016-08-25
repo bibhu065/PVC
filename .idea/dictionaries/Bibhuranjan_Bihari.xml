@@ -2,12 +2,16 @@
   <dictionary name="Bibhuranjan Bihari">
     <words>
       <w>aboutme</w>
+      <w>additivescontent</w>
+      <w>additivesnav</w>
       <w>autobomcalculation</w>
       <w>batchsize</w>
       <w>bomsize</w>
       <w>bomsum</w>
       <w>btcal</w>
       <w>compounddensitypricecalculation</w>
+      <w>flamereatardent</w>
+      <w>flameretardent</w>
       <w>formulationcontent</w>
       <w>formulationnav</w>
       <w>frbase</w>
@@ -17,17 +21,23 @@
       <w>hzsv</w>
       <w>inttext</w>
       <w>llcontent</w>
+      <w>metaplast</w>
       <w>nfrst</w>
+      <w>plasticizer</w>
       <w>prbt</w>
       <w>prdtbt</w>
+      <w>primarylubricants</w>
       <w>prres</w>
       <w>prresult</w>
       <w>rbom</w>
       <w>rlayout</w>
+      <w>rmname</w>
       <w>rphr</w>
+      <w>secondarylubricants</w>
       <w>showgravity</w>
       <w>showgrvity</w>
       <w>showprice</w>
+      <w>smokesuppresant</w>
       <w>stearic</w>
       <w>telehphonest</w>
       <w>telephonest</w>

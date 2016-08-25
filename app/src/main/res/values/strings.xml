@@ -55,8 +55,8 @@
     <!--- Raw Material Items Names -->
     <string name="den_cal">Raw Material Names</string>
     <string name="rn1">Resin K-70 &amp; K-67</string>
-    <string name="rn2">Calcium Carbonate</string>
-    <string name="rn3">Aluminum Hydroxide</string>
+    <string name="rn2">Calcium Carbonate(OT)</string>
+    <string name="rn3">Aluminum Hydroxide(800)</string>
     <string name="rn4">Magnesium Hydroxide</string>
     <string name="rn5">Tribasic Lead Stearate</string>
     <string name="rn6">Di basic Lead Sulphate</string>
@@ -76,6 +76,17 @@
     <string name="rn20">Stearic Acid</string>
     <string name="rn21">Fine Pastaid-T</string>
     <string name="rn22">Non Pthalate Plasticizer</string>
+    <string name="rn23">Calcined Clay-Metaplast 85</string>
+    <string name="rn24">Calcined Clay-Polestar 450</string>
+    <string name="rn25">Flame Guard</string>
+    <string name="rn26">Ca/Zn(Rup 144 BT)</string>
+    <string name="rn27">PE Wax AC316 A</string>
+    <string name="rn28">MDH Ecoperian 3.5C</string>
+    <string name="rn29">ATH Apyral 40CD/800</string>
+    <string name="rn30">ATH Martinol Leo 104</string>
+    <string name="rn31">Ca/Zn(81/5)</string>
+    <string name="rn32">Calcium Carbonate</string>
+    <string name="rn33">Aluminum Hydroxide</string>
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
@@ -121,6 +132,8 @@
     <string name="base5">FR Base LLS 1.52 (700 mpm)</string>
     <string name="base6">FR Base HLS 1.52(900 mpm)</string>
     <string name="base7">Non FR Base Type D 1.52 Sp.Gravity</string>
+    <string name="base9">FR Base Type D 1.52 Sp.Gravity</string>
+    <string name="base10">FR Base Without ZB &amp; FG </string>
     <string name="skin1">SKIN HLS (700 mpm)</string>
     <string name="skin2">SKIN LLS (300 mpm)</string>
     <string name="skin3">Transparent SKIN</string>
@@ -144,6 +157,35 @@
     <!-- Text Related to Expected output from the formulations -->
 
     <string name="base1_details">Expected Out put from the above Formulation</string>
+
+    <string name="resin">What is Resin?</string>
+    <string name="resin1">Suspension Grade</string>
+    <string name="resin2">Emulsion Grade</string>
+    <string name="resin3">Bulk Grade</string>
+    <string name="resin4">Co-polymer Grade</string>
+
+
+    <string name="plasticizer">What is Plasticizer?</string>
+    <string name="plasticizer1">Primary Plasticizer</string>
+    <string name="plasticizer2">Secondary Plasticizer</string>
+
+    <string name="stabilizer">What is Stabilizer?</string>
+    <string name="stabilizer1">Heat Stabilizer</string>
+    <string name="stabilizer2">Light Stabilizer</string>
+
+    <string name="lubricants">What is Lubricants?</string>
+    <string name="lubricants1">Primary Lubricants</string>
+    <string name="lubricants2">Secondary Lubricants</string>
+
+    <string name="filler">What is Fillers?</string>
+    <string name="filler1">Ground Calcium Carbonate</string>
+    <string name="filler2">Precipitated Calcium Carbonate</string>
+
+    <string name="smokesuppresant">What is Smokesuppresant?</string>
+    <string name="smokesuppresant1">How it Works?</string>
+    <string name="flameretardent">What is Flame Retardent?</string>
+    <string name="flameretardent1">How it Works?</string>
+
 
 
 </resources>

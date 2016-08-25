@@ -17,6 +17,14 @@
             android:title="@string/base8"
             android:icon="@drawable/ic_exit"/>
         <item
+        android:id="@+id/base9"
+        android:title="@string/base9"
+        android:icon="@drawable/ic_exit"/>
+        <item
+            android:id="@+id/base10"
+            android:title="@string/base10"
+            android:icon="@drawable/ic_exit"/>
+        <item
             android:id="@+id/base3"
             android:title="@string/base3"
             android:icon="@drawable/ic_exit"/>

@@ -18,22 +18,24 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.anchor.pvc.fragment.Base1Fragment;
-import com.anchor.pvc.fragment.Base2Fragment;
-import com.anchor.pvc.fragment.Base3Fragment;
-import com.anchor.pvc.fragment.Base4Fragment;
-import com.anchor.pvc.fragment.Base5Fragment;
-import com.anchor.pvc.fragment.Base6Fragment;
-import com.anchor.pvc.fragment.Base7Fragment;
-import com.anchor.pvc.fragment.Base8Fragment;
-import com.anchor.pvc.fragment.FrlshFragment;
-import com.anchor.pvc.fragment.FrlshstFragment;
-import com.anchor.pvc.fragment.FrstFragment;
-import com.anchor.pvc.fragment.NonfrstFragment;
-import com.anchor.pvc.fragment.Skin1Fragment;
-import com.anchor.pvc.fragment.Skin2Fragment;
-import com.anchor.pvc.fragment.Skin3Fragment;
-import com.anchor.pvc.fragment.TelstFragment;
+import com.anchor.pvc.formulation_fragment.Base10Fragment;
+import com.anchor.pvc.formulation_fragment.Base1Fragment;
+import com.anchor.pvc.formulation_fragment.Base2Fragment;
+import com.anchor.pvc.formulation_fragment.Base3Fragment;
+import com.anchor.pvc.formulation_fragment.Base4Fragment;
+import com.anchor.pvc.formulation_fragment.Base5Fragment;
+import com.anchor.pvc.formulation_fragment.Base6Fragment;
+import com.anchor.pvc.formulation_fragment.Base7Fragment;
+import com.anchor.pvc.formulation_fragment.Base8Fragment;
+import com.anchor.pvc.formulation_fragment.Base9Fragment;
+import com.anchor.pvc.formulation_fragment.FrlshFragment;
+import com.anchor.pvc.formulation_fragment.FrlshstFragment;
+import com.anchor.pvc.formulation_fragment.FrstFragment;
+import com.anchor.pvc.formulation_fragment.NonfrstFragment;
+import com.anchor.pvc.formulation_fragment.Skin1Fragment;
+import com.anchor.pvc.formulation_fragment.Skin2Fragment;
+import com.anchor.pvc.formulation_fragment.Skin3Fragment;
+import com.anchor.pvc.formulation_fragment.TelstFragment;
 
 /**
  * Created by Bibhuranjan Bihari on 8/24/2016.
@@ -146,21 +148,27 @@ public class Basicformulation extends AppCompatActivity implements NavigationVie
 
         }else if (id == R.id.base8) {
             // Handle the Base1 i.e 1.47 specific gravity
-            fm.beginTransaction().replace(R.id.content_frame,new Base8Fragment()).commit();
-            Toast.makeText(getApplicationContext(),"FR Base 1.47 Sp.Gravity",Toast.LENGTH_SHORT).show();
-
-
+            fm.beginTransaction().replace(R.id.content_frame, new Base8Fragment()).commit();
+            Toast.makeText(getApplicationContext(), "FR Base 1.47 Sp.Gravity", Toast.LENGTH_SHORT).show();
+        }else if (id == R.id.base9) {
+            // Handle the Base1 i.e 1.52  specific gravity FR Base Type D
+            fm.beginTransaction().replace(R.id.content_frame, new Base9Fragment()).commit();
+            Toast.makeText(getApplicationContext(), "FR Base Type D 1.52 Sp.Gravity", Toast.LENGTH_SHORT).show();
+        }else if (id == R.id.base10) {
+                // Handle the Base1 i.e 1.52  specific gravity FR Base Type D
+                fm.beginTransaction().replace(R.id.content_frame,new Base10Fragment()).commit();
+                Toast.makeText(getApplicationContext(),"FR Base Type A 1.52 Sp.Gravity without Zinc Borate & Flame Guard",Toast.LENGTH_SHORT).show();
 
         }else if (id == R.id.skin1) {
             // Handle the skin1 i.e Line Speed 300
             fm.beginTransaction().replace(R.id.content_frame,new Skin1Fragment()).commit();
-            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity up to 700 Line Speed",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity up to 300 Line Speed",Toast.LENGTH_SHORT).show();
 
 
         }else if (id == R.id.skin2) {
-            // Handle the skin1 i.e Line Speed 300
+            // Handle the skin1 i.e Line Speed 700
             fm.beginTransaction().replace(R.id.content_frame,new Skin2Fragment()).commit();
-            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity upto 300 Line Speed",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Skin 1.32 Specific gravity up to 700Line Speed",Toast.LENGTH_SHORT).show();
 
         }else if (id == R.id.skin3) {
             // Handle the Transparent SKIN

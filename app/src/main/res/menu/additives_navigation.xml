@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Resin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/resin"
+                    android:title="@string/resin"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/resin1"
+                    android:title="@string/resin1"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/resin2"
+                    android:title="@string/resin2"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/resin3"
+                    android:title="@string/resin3"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/resin4"
+                    android:title="@string/resin4"
+                    android:icon="@drawable/ic_exit"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Plasticizer">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/plasticizer"
+                    android:title="@string/plasticizer"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/plasticizer1"
+                    android:title="@string/plasticizer1"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/plasticizer2"
+                    android:title="@string/plasticizer2"
+                    android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Stabilizer">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                android:id="@+id/stabilizer"
+                android:title="@string/stabilizer"
+                android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/stabilizer1"
+                    android:title="@string/stabilizer1"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/stabilizer2"
+                    android:title="@string/stabilizer2"
+                    android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Lubricants">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/lubricants"
+                android:title="@string/lubricants"
+                android:icon="@drawable/ic_exit"/>
+            <item
+                android:id="@+id/primarylubricants"
+                android:title="@string/lubricants1"
+                android:icon="@drawable/ic_exit"/>
+            <item
+                android:id="@+id/secondarylubricants"
+                android:title="@string/lubricants2"
+                android:icon="@drawable/ic_exit"/>
+        </group>
+    </menu>
+</item>
+    <item android:title="Fillers">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/filler"
+                    android:title="@string/filler"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/filler1"
+                    android:title="@string/filler1"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/filler2"
+                    android:title="@string/filler2"
+                    android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Special Additives">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/smokesuppresant"
+                    android:title="@string/smokesuppresant"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/smokesuppresant1"
+                    android:title="@string/smokesuppresant1"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/flamereatardent"
+                    android:title="@string/flameretardent"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/flameretardent1"
+                    android:title="@string/flameretardent1"
+                    android:icon="@drawable/ic_exit"/>
+
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/return_menu"
+        android:title="@string/return_home"
+        android:icon="@drawable/ic_home"/>
+
+</menu>
