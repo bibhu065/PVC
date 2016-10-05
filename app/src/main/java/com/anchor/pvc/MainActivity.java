@@ -7,10 +7,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button button1,button2,button3,button4,button5,button6,button7,button8,button9,button10;
+    Button button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button1= (Button) findViewById(R.id.btn1);
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         button8= (Button) findViewById(R.id.btn8);
         button9= (Button) findViewById(R.id.btn9);
         button10= (Button) findViewById(R.id.btn10);
+        button11= (Button) findViewById(R.id.btn11);
+        button12= (Button) findViewById(R.id.btn12);
     }
     public  void  introduction(View v)
     {
@@ -75,6 +78,15 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,Aboutme.class);
         startActivity(i);
     }
-
+    public void basicrmspecification(View v)
+    {
+        Intent i=new Intent(this,Basicrmspecification.class);
+        startActivity(i);
+    }
+    public void rmtestprocedure(View v)
+    {
+        Intent i=new Intent(this,Rmtestprocedure.class);
+        startActivity(i);
+    }
 
 }

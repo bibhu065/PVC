@@ -24,7 +24,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="Emulsion Polymerised PVC is what Paste Grade Resin is and this is almost exclusively used for Plastisols."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow2"
@@ -44,7 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="Paste grade resin is a very fine particle size PVC produced by spray drying an Emulsion of PVC in Water very much like how milk powder is produced."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow4"
@@ -64,7 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="Paste grade resin needs much more energy to produce and is considerably costlier than Suspension resin."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow5"
@@ -84,7 +87,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="The paste grade resin carries the emulsifying chemicals and catalysts with it. It is therefore less pure than Suspension Polymerized or Bulk Polymerized PVC."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow6"
@@ -104,7 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="The Electrical properties of Paste grade resin plastisols are therefore much poorer than Suspension Resin Compounds. Clarity is poorer than Suspension or Bulk PVC. Paste grade resin is compact in structure, and does not absorb much Plasticiser at room temperatures."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow7"
@@ -124,7 +129,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="Temperatures in excess of 160-180oC are needed to drive the plasticer into the Resin during curing. Paste grade Resin is extensively used for Cushion Vinyl Floorings of wide widths."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow8"
@@ -144,7 +150,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="Different layers of specially formulated pastes are coated either on a suitable substrate (Direct Coating) or on Release Paper (Transfer coating). The layers are fused continuously in long ovens and rolled up after release paper is stripped off."/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow9"
@@ -164,349 +171,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="The rolled good flooring can have a tough semitransparent wear layer over printed and foamed layers which are sitting on top of highly filled base coats to build up the thickness. Many extremely attractive and rich effects are possible and these represent the higher end of Vinyl Flooring. "/>
             </TableRow>
 
-            <TableRow
-                android:id="@+id/tableRow13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet20"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView20"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow21"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet21"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView21"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet26"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView26"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                >
-                <TextView
-                    android:id="@+id/bullet27"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bullets"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView27"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:text=""/>
-            </TableRow>
         </TableLayout>
     </ScrollView>
 </FrameLayout>

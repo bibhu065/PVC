@@ -334,6 +334,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="20sp"
+                android:textColor="@color/Black"
                 android:text="PVC is resistant to acid, alkali and almost all inorganic chemicals. Although PVC swells or dissolves in aromatic hydrocarbons, ketones, and cyclic ethers, PVC is hard to dissolve in other organic solvents. Taking advantage of this characteristic, PVC is used in exhaust gas ducts, sheets used in construction, bottles, tubes and hoses."/>
         </TableRow>
         <TableRow

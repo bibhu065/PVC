@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,6 +14,9 @@
     android:weightSum="1"
     android:background="@color/applicaionfrontpagebackground">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
     <RelativeLayout
         android:layout_width="180sp"
         android:layout_height="90sp"
@@ -165,14 +169,51 @@
         android:layout_marginStart="15sp"
         android:layout_marginTop="15sp"
         >
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/bt_10"
-            android:id="@+id/btn10"
-            android:onClick="aboutme"
+            android:text="@string/bt_11"
+            android:id="@+id/btn11"
+            android:onClick="rmtestprocedure"
+            android:background="@color/applicationfrontpage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/border_width"
+        android:layout_height="@dimen/border_height"
+        android:id="@+id/rl11"
+        android:layout_below="@id/rl9"
+        android:layout_marginTop="15sp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/bt_12"
+            android:id="@+id/btn12"
+            android:onClick="basicrmspecification"
             android:background="@color/applicationfrontpage"
             />
     </RelativeLayout>
-</RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn10"
+            android:onClick="aboutme"
+            android:text="@string/bt_10"
+            android:background="@color/applicationfrontpage"
+            android:layout_alignTop="@+id/rl11"
+            android:layout_alignStart="@+id/rl10"
+            android:layout_alignBottom="@+id/rl11"
+            android:layout_alignEnd="@+id/rl10" />
+        </RelativeLayout>
+
+
+
+
+</ScrollView>
 

@@ -18,18 +18,6 @@ import android.widget.TextView;
 import com.anchor.pvc.fillers_fragment.Filler;
 import com.anchor.pvc.fillers_fragment.Filler1;
 import com.anchor.pvc.fillers_fragment.Filler2;
-import com.anchor.pvc.formulation_fragment.Base10Fragment;
-import com.anchor.pvc.formulation_fragment.Base7Fragment;
-import com.anchor.pvc.formulation_fragment.Base8Fragment;
-import com.anchor.pvc.formulation_fragment.Base9Fragment;
-import com.anchor.pvc.formulation_fragment.FrlshFragment;
-import com.anchor.pvc.formulation_fragment.FrlshstFragment;
-import com.anchor.pvc.formulation_fragment.FrstFragment;
-import com.anchor.pvc.formulation_fragment.NonfrstFragment;
-import com.anchor.pvc.formulation_fragment.Skin1Fragment;
-import com.anchor.pvc.formulation_fragment.Skin2Fragment;
-import com.anchor.pvc.formulation_fragment.Skin3Fragment;
-import com.anchor.pvc.formulation_fragment.TelstFragment;
 import com.anchor.pvc.lubricants_fragment.Lubricants;
 import com.anchor.pvc.lubricants_fragment.Lubricants1;
 import com.anchor.pvc.lubricants_fragment.Lubricants2;
@@ -41,6 +29,7 @@ import com.anchor.pvc.resin_fragment.Resin1;
 import com.anchor.pvc.resin_fragment.Resin2;
 import com.anchor.pvc.resin_fragment.Resin3;
 import com.anchor.pvc.resin_fragment.Resin4;
+import com.anchor.pvc.resin_fragment.k_value;
 import com.anchor.pvc.specialadditives_fragment.Flameretardant;
 import com.anchor.pvc.specialadditives_fragment.Flameretardant1;
 import com.anchor.pvc.specialadditives_fragment.Smokesuppresant;
@@ -141,7 +130,12 @@ public class Compositioninpvccompound extends AppCompatActivity implements Navig
 
         } else if (id == R.id.resin4) {
 
-            fm.beginTransaction().replace(R.id.content_frame,new Resin4()).commit();
+            fm.beginTransaction().replace(R.id.content_frame, new Resin4()).commit();
+        } else if (id == R.id.kvalue) {
+
+                fm.beginTransaction().replace(R.id.content_frame,new k_value()).commit();
+
+
 
         }else if (id == R.id.plasticizer) {
 

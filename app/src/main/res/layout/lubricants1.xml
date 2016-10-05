@@ -8,24 +8,113 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TableRow
-                android:id="@+id/tableRow1"
+                android:id="@+id/tableRow99"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                >
                 <TextView
-                    android:id="@+id/bullet"
-                    android:textStyle="bold"
+                    android:id="@+id/bullet88"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@string/bullets"
                     android:textSize="20sp"
-                    android:text="@string/bullets"/>
+                    android:textStyle="bold"/>
                 <TextView
-                    android:id="@+id/TextView01"
+                    android:id="@+id/TextView088"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:textColor="@color/Black"
+                    android:text="In special cases as much as 140-150 PHR of Primary plasticiser can be gelated into PVC for super soft products."/>
             </TableRow>
+            <TableRow
+                android:id="@+id/tableRow999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/bullet91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bullets"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TextView093"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/Black"
+                    android:text="Nearly all Plasticisers are liquids and have to be absorbed in Suspension resin in heated mixers. High Speed mixers (which generate frictional heat while mixing) are the most popular types of dryblending equipment. Heated Ribbon blenders and Sigma mixers are only used when very high Plasticiser levels are required."/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/bullet101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bullets"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TextView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/Black"
+                    android:text="Purity is very important in Plasticisers. Presence of unreacted Acid or alcohol even in small quantities reduces efficiency of the plasticizer. Impure Plasticisers have a bad odour. Electrical properties are adversely affected by impurities. For totally smell free DOP, double distillation is used, increasing costs."/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/bullet110"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bullets"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TextView110"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/Black"
+                    android:text="The higher Carbon atoms Phthalates have better permanence. They do not volatilize easily at high temperatures. If a Plasticiser volatilizes the product becomes harder and brittle. Fusing and gelation take longer with DNP(Di Nonyl Phthalate) &amp; DIDP(Di Iso Decyl Phthalate).
+Phthalate Plasticisers are not fire resistant. They are the main reason why Flexible PVC products are much more flammable than Unplasticised (Rigid) PVC. "/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/bullet120"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bullets"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TextView120"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/Black"
+                    android:text="One important concept has to be understood: Plasticising Efficiency. The Plasticising efficiency of DOP (the most popular) is set as 1. The Plasticising efficiency of any other plasticizer is expressed as a ratio with DOP for producing a moulding of same softness. For example if 50 PHR of DOP yields a Shore hardness of 77, and 55 PHR of another plasticizer gives the same hardness, the Plasticizing efficiency of the plasticizer is 50/55 x 100 or 0.91 (91%).  "/>
+            </TableRow>
+
+
             <TableRow
                 android:id="@+id/tableRow2"
                 android:layout_width="wrap_content"
@@ -44,7 +133,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:text="Plasticizer Efficiency"/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow4"
@@ -58,13 +150,15 @@
                     android:text="@string/bullets"
                     android:textSize="20sp"
                     android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/TextView04"
+                <ImageView
+                    android:id="@+id/plasticizer_image"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:text=""/>
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pvc_plasticizer_efficiency"/>
             </TableRow>
             <TableRow
                 android:id="@+id/tableRow5"

@@ -8,8 +8,10 @@
     <string name="bt_6">Compound Price Calculation</string>
     <string name="bt_7">Auto BOM Calculation</string>
     <string name="bt_8">Basic Formulation</string>
-    <string name="bt_9">Troubleshooting Guides</string>
+    <string name="bt_9">Troubleshooting Guides for Hold PVC Compounds</string>
     <string name="bt_10">About Me</string>
+    <string name="bt_11">PVC RM Test Procedure</string>
+    <string name="bt_12">PVC RM Specification</string>
     <string name="int_1">History of PVC</string>
     <string name="title_activity_introduction">Introduction</string>
     <string name="Contact_us">This is Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
@@ -87,6 +89,8 @@
     <string name="rn31">Ca/Zn(81/5)</string>
     <string name="rn32">Calcium Carbonate</string>
     <string name="rn33">Aluminum Hydroxide</string>
+    <string name="rn34">Eunox-76</string>
+    <string name="rn35">DIDP</string>
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
@@ -124,16 +128,28 @@
     <string name="resin_value">100</string>
 
     <!-- Nav Drawer Menu Items -->
+    <string name="base12">FR Base 1.42 Sp.Gravity</string>
+    <string name="base11">FR Base 1.43 Sp.Gravity</string>
     <string name="base1">FR Base 1.44 Sp.Gravity</string>
+    <string name="base13">FR Base 1.45 Sp.Gravity</string>
     <string name="base2">FR Base 1.46 Sp.Gravity</string>
     <string name="base8">FR Base 1.47 Sp.Gravity</string>
     <string name="base3">FR Base 1.48 Sp.Gravity</string>
+    <string name="base14">FR Base 1.49 Sp.Gravity</string>
+    <string name="base15">FR Base 1.50 Sp.Gravity</string>
     <string name="base4">FR Base 1.51 Sp.Gravity</string>
     <string name="base5">FR Base LLS 1.52 (700 mpm)</string>
     <string name="base6">FR Base HLS 1.52(900 mpm)</string>
     <string name="base7">Non FR Base Type D 1.52 Sp.Gravity</string>
     <string name="base9">FR Base Type D 1.52 Sp.Gravity</string>
     <string name="base10">FR Base Without ZB &amp; FG </string>
+    <string name="base16">FR Base Type C(1) </string>
+    <string name="base17">FR Base Type C(2)</string>
+    <string name="base18">LFFR RoHs 1.42 Sp.Gravity</string>
+    <string name="finolex_base">Finolex Base</string>
+    <string name="finolex_skin">Finolex Skin</string>
+    <string name="polycab_base">Polycab Base</string>
+    <string name="polycab_skin">Polycab Skin</string>
     <string name="skin1">SKIN HLS (700 mpm)</string>
     <string name="skin2">SKIN LLS (300 mpm)</string>
     <string name="skin3">Transparent SKIN</string>
@@ -141,7 +157,11 @@
     <string name="sheathing">FR Sheathing</string>
     <string name="sheathing1">Non FR Sheathing</string>
     <string name="frlsh">FRLSH</string>
-    <string name="sheathing2">FRLSH Sheathing</string>
+    <string name="sheathing3">FRLSH Sheathing(ST2)</string>
+    <string name="sheathing2">FRLSH Sheathing(ST3)</string>
+    <string name="typec1">Type C(1)</string>
+    <string name="typec2">Type C(2)</string>
+    <string name="typec3">Type C(3)</string>
     <string name="return_home">Return to Main Menu</string>
 
     <string name="basic_formulation"> Swipe from left to right to see Basic Compound Formulation Details</string>
@@ -156,13 +176,14 @@
 
     <!-- Text Related to Expected output from the formulations -->
 
-    <string name="base1_details">Expected Out put from the above Formulation</string>
+    <string name="base1_details">Total Batch Size of the Formulation</string>
 
     <string name="resin">What is Resin?</string>
     <string name="resin1">Suspension Grade</string>
     <string name="resin2">Emulsion Grade</string>
     <string name="resin3">Bulk Grade</string>
     <string name="resin4">Co-polymer Grade</string>
+    <string name="kvalue">K-Value</string>
 
 
     <string name="plasticizer">What is Plasticizer?</string>
@@ -185,9 +206,41 @@
     <string name="smokesuppresant1">How it Works?</string>
     <string name="flameretardent">What is Flame Retardent?</string>
     <string name="flameretardent1">How it Works?</string>
-
     <string name="bullets">&#8226;</string>
 
 
+    <string name="rmtp1">Acid Value of Plasticizers</string>
+    <string name="rmtp2">Acidity of CPW</string>
+    <string name="rmtp3">Acidity of Stearic Acid</string>
+    <string name="rmtp4">Assay as Al2O3</string>
+    <string name="rmtp5">Bisphenol-A in DOP</string>
+    <string name="rmtp6">Bulk Density</string>
+    <string name="rmtp7">CaCO3 &amp; MgCO3</string>
+    <string name="rmtp8">Color of Plasticizers</string>
+    <string name="rmtp9">Conductivity of Resin</string>
+    <string name="rmtp10">Ester Value &amp; Ester Content</string>
+    <string name="rmtp11">Heat Stability</string>
+    <string name="rmtp12">Iodine Value</string>
+    <string name="rmtp13">K-value</string>
+    <string name="rmtp14">Lead Content(PbO)</string>
+    <string name="rmtp15">Loss of Ignition</string>
+    <string name="rmtp16">Melting Point</string>
+    <string name="rmtp17">Moisture Content</string>
+    <string name="rmtp18">Oxirene Oxygen</string>
+    <string name="rmtp19">Plasticizer Absorption Number</string>
+    <string name="rmtp20">Purity of Sb2O3</string>
+    <string name="rmtp21">Seive Residue</string>
+    <string name="rmtp22">Specific Gravity</string>
+    <string name="rmtp23">Thermal Stability</string>
+    <string name="rmtp24">Total Fatty Matters</string>
+    <string name="rmtp25">Viscosity</string>
+    <string name="rmtp26">Volatile Loss</string>
+    <string name="rmtp27">Halogen Acid Gas</string>
+    <string name="rmtp28">Limiting Oxygen Index</string>
+    <string name="rmtp29">Smoke Density Rating</string>
+    <string name="rmtp30">Cell Resitance of CPW</string>
+    <string name="rmtp31">Chemical Reagents List</string>
+    <string name="rmtp32">Chemical Glassware List</string>
+    <string name="rmtp33">Lab Instruments</string>
 
 </resources>
