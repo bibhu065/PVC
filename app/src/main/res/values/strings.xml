@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PVC For Wires &amp; Cables</string>
+    <string name="app_name">Flexible PVC Compounding</string>
     <string name="bt_1">Introduction</string>
     <string name="bt_2">PVC Resin Preparation</string>
     <string name="bt_3">Composition in PVC Compound</string>
@@ -14,11 +14,7 @@
     <string name="bt_12">PVC Raw Material Function Part:2</string>
     <string name="int_1">History of PVC</string>
     <string name="title_activity_introduction">Introduction</string>
-    <string name="Contact_us">I am Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
-        sector in some where in this world.Basically I am a Plastic Engineer,graduated from CIPET,Bhubaneswar.I love to develop Android
-        application required in our daily working activity.Just providing some basic ideas about PVC Compounding requried for Wires &amp; Cable.
-        Contents provided in the application is completely confidential and limited to certain user.So please ignore if you get by chance from some where.
-        All data are found after doing  research in daily activity.If any Suggestion regarding application improvement then contact me on below mention ID. </string>
+    <string name="Contact_us">Write Latter</string>
 
     <string name="history">History of PVC(Poly Vinyl Chloride)</string>
     <string name="history1">Polyvinyl chloride or PVC was first created by the German chemist
@@ -94,6 +90,7 @@
     <string name="rn35">DIDP</string>
     <string name="rn36">Calcined Clay</string>
     <string name="rn37">Dibasic Lead Phosphate</string>
+    <string name="rn38">Calcium  Zinc Stabilizers</string>
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>

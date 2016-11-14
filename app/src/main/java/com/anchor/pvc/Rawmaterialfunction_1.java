@@ -16,39 +16,17 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.anchor.pvc.rmtesting_fragment.R1;
-import com.anchor.pvc.rmtesting_fragment.R10;
-import com.anchor.pvc.rmtesting_fragment.R11;
-import com.anchor.pvc.rmtesting_fragment.R12;
-import com.anchor.pvc.rmtesting_fragment.R13;
-import com.anchor.pvc.rmtesting_fragment.R14;
-import com.anchor.pvc.rmtesting_fragment.R15;
-import com.anchor.pvc.rmtesting_fragment.R16;
-import com.anchor.pvc.rmtesting_fragment.R17;
-import com.anchor.pvc.rmtesting_fragment.R18;
-import com.anchor.pvc.rmtesting_fragment.R19;
-import com.anchor.pvc.rmtesting_fragment.R2;
-import com.anchor.pvc.rmtesting_fragment.R20;
-import com.anchor.pvc.rmtesting_fragment.R21;
-import com.anchor.pvc.rmtesting_fragment.R22;
-import com.anchor.pvc.rmtesting_fragment.R23;
-import com.anchor.pvc.rmtesting_fragment.R24;
-import com.anchor.pvc.rmtesting_fragment.R25;
-import com.anchor.pvc.rmtesting_fragment.R26;
-import com.anchor.pvc.rmtesting_fragment.R27;
-import com.anchor.pvc.rmtesting_fragment.R28;
-import com.anchor.pvc.rmtesting_fragment.R29;
-import com.anchor.pvc.rmtesting_fragment.R3;
-import com.anchor.pvc.rmtesting_fragment.R30;
-import com.anchor.pvc.rmtesting_fragment.R31;
-import com.anchor.pvc.rmtesting_fragment.R32;
-import com.anchor.pvc.rmtesting_fragment.R33;
-import com.anchor.pvc.rmtesting_fragment.R4;
-import com.anchor.pvc.rmtesting_fragment.R5;
-import com.anchor.pvc.rmtesting_fragment.R6;
-import com.anchor.pvc.rmtesting_fragment.R7;
-import com.anchor.pvc.rmtesting_fragment.R8;
-import com.anchor.pvc.rmtesting_fragment.R9;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.antimonytrioxide;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.ath;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.calciumcarbonate;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.calciumzinc;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.cclay;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.cs;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.dblp;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.dbls;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.ls;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.mdh;
+import com.anchor.pvc.rawmaterialfunction_1_fragment.tbls;
 
 
 public class Rawmaterialfunction_1 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
@@ -87,7 +65,7 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         tv_email.setText("PVC Raw Material Function Part:1");
 
         FragmentManager fm= getFragmentManager();
-        fm.beginTransaction().replace(R.id.content_frame,new R1 ()).commit();
+        fm.beginTransaction().replace(R.id.content_frame,new ath ()).commit();
     }
 
     @Override
@@ -108,7 +86,7 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
     public boolean onCreateOptionsMenu(Menu menu)
     {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.rmtestprocedure_main, menu);
+        getMenuInflater().inflate(R.menu.rawmaterialfunction_1_main, menu);
         return true;
     }
 
@@ -141,14 +119,14 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         {
             // Handle the Properties & Function of ATH
             Toast.makeText(getApplicationContext(),"Properties & Function of ATH", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R1()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new ath()).commit();
         }
         else if (id == R.id.rtf2)
 
         {
             // Handle the Properties & Function of MDH
             Toast.makeText(getApplicationContext(),"Properties & Function of MDH", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R2()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new mdh()).commit();
 
         }
         else if (id == R.id.rtf3)
@@ -156,7 +134,7 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         {
             // Handle the Properties & Function of C-caly
             Toast.makeText(getApplicationContext(),"Properties & Function of Calcined Clay", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R3()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new cclay()).commit();
 
         }
         else if (id == R.id.rtf4)
@@ -164,7 +142,7 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         {
             // Handle the Properties & Function of CaCO3
             Toast.makeText(getApplicationContext(),"Properties & Function of Calcium Carbonate", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R4()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new calciumcarbonate()).commit();
 
         }
         else if (id == R.id.rtf5)
@@ -172,7 +150,7 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         {
             // Handle the Properties & Function of TBLS
             Toast.makeText(getApplicationContext(),"Properties & Function of Tribasic Lead Stearate", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R5()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new tbls()).commit();
 
         }
         else if (id == R.id.rtf6)
@@ -180,23 +158,47 @@ public class Rawmaterialfunction_1 extends AppCompatActivity implements Navigati
         {
             // Handle the Properties & Function of DBLP
             Toast.makeText(getApplicationContext(),"Properties & Function of Dibasic Lead Phosphate", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R6()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new dblp()).commit();
 
         }
         else if (id == R.id.rtf7)
 
         {
-            // Handle the Properties & Function of Lead Stearate
-            Toast.makeText(getApplicationContext(),"Properties & Function of Lead Stearate", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R6()).commit();
+            // Handle the Properties & Function of DBLS
+            Toast.makeText(getApplicationContext(),"Properties & Function of Di Basic Lead sulphate", Toast.LENGTH_SHORT).show();
+            fm.beginTransaction().replace(R.id.content_frame,new dbls()).commit();
 
         }
         else if (id == R.id.rtf8)
 
         {
+            // Handle the Properties & Function of Lead Stearate
+            Toast.makeText(getApplicationContext(),"Properties & Function of Lead Stearate", Toast.LENGTH_SHORT).show();
+            fm.beginTransaction().replace(R.id.content_frame,new ls()).commit();
+
+        }
+        else if (id == R.id.rtf9)
+
+        {
             // Handle the Properties & Function of Calcium Stearate
             Toast.makeText(getApplicationContext(),"Properties & Function of Calcium Stearate", Toast.LENGTH_SHORT).show();
-            fm.beginTransaction().replace(R.id.content_frame,new R6()).commit();
+            fm.beginTransaction().replace(R.id.content_frame,new cs()).commit();
+
+        }
+        else if (id == R.id.rtf10)
+
+        {
+            // Handle the Properties & Function of Calcium Zinc Stabilizer
+            Toast.makeText(getApplicationContext(),"Properties & Function of Calcium Zinc Stabilizer", Toast.LENGTH_SHORT).show();
+            fm.beginTransaction().replace(R.id.content_frame,new calciumzinc()).commit();
+
+        }
+        else if (id == R.id.rtf11)
+
+        {
+            // Handle the Properties & Function of Antimony Trioxide
+            Toast.makeText(getApplicationContext(),"Properties & Function of Antimony Trioxide", Toast.LENGTH_SHORT).show();
+            fm.beginTransaction().replace(R.id.content_frame,new antimonytrioxide()).commit();
 
         }
 
