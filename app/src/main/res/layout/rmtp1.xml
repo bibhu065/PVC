@@ -18,13 +18,12 @@
                     android:layout_height="wrap_content"
                     >
                     <ImageView
-                        android:id="@+id/acid_value1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textSize="20sp"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
+                        android:layout_rowSpan="2"
+                        android:id="@+id/acid_value1"
+                        android:layout_row="0"
+                        android:layout_column="0"
                         android:src="@drawable/acid_value_1"/>
                 </TableRow>
                 <TableRow
@@ -33,19 +32,15 @@
                     android:layout_height="wrap_content"
                     >
                     <ImageView
-                        android:id="@+id/acid_value2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textSize="20sp"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/acid_value_2"/>
+                        android:layout_rowSpan="2"
+                        android:id="@+id/acid_value2"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:src="@drawable/acid_value_1"/>
                 </TableRow>
-
-
             </TableLayout>
         </HorizontalScrollView>
     </ScrollView>
-
 </FrameLayout>

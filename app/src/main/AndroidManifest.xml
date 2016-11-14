@@ -12,13 +12,13 @@
             android:smallScreens="true"
             android:normalScreens="true"
             android:largeScreens="true"
-            android:xlargeScreens="true"/>
+            android:xlargeScreens="true"
+            android:anyDensity="true"/>
         <activity android:name=".MainActivity"
             android:theme="@style/AppThemeWithActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -28,11 +28,11 @@
         <activity android:name=".Compounddensitycalculation" />
         <activity android:name=".Compoundpricecalculation" />
         <activity android:name=".Autobomcalculation" android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-        <activity android:name=".Troubleshootingguides" />
+        <activity android:name=".Rawmaterialfunction_1" />
         <activity android:name=".Basicformulation" />
         <activity android:name=".Aboutme" />
         <activity android:name=".Rmtestprocedure" />
-        <activity android:name=".Basicrmspecification" />
+        <activity android:name=".Rawmaterialfunction_2" />
         <activity android:name=".Compounddensitypricecalculation" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
 
         </activity>

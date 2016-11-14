@@ -156,7 +156,7 @@
             android:layout_height="match_parent"
             android:text="@string/bt_9"
             android:id="@+id/btn9"
-            android:onClick="troubleshootingguides"
+            android:onClick="rawmaterialfunction_1"
             android:background="@color/applicationfrontpage"
             />
     </RelativeLayout>
@@ -194,7 +194,7 @@
             android:layout_height="match_parent"
             android:text="@string/bt_12"
             android:id="@+id/btn12"
-            android:onClick="basicrmspecification"
+            android:onClick="rawmaterialfunction_2"
             android:background="@color/applicationfrontpage"
             />
     </RelativeLayout>

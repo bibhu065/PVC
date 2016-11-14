@@ -43,9 +43,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void troubleshootingguides(View v)
+    public void rawmaterialfunction_1(View v)
     {
-        Intent i=new Intent(this,Troubleshootingguides.class);
+        Intent i=new Intent(this,Rawmaterialfunction_1.class);
+        startActivity(i);
+    }
+    public void rawmaterialfunction_2(View v)
+    {
+        Intent i=new Intent(this,Rawmaterialfunction_2.class);
         startActivity(i);
     }
     public void compounddensitycalculation(View v)
@@ -76,11 +81,6 @@ public class MainActivity extends AppCompatActivity {
     public void aboutme(View v)
     {
         Intent i=new Intent(this,Aboutme.class);
-        startActivity(i);
-    }
-    public void basicrmspecification(View v)
-    {
-        Intent i=new Intent(this,Basicrmspecification.class);
         startActivity(i);
     }
     public void rmtestprocedure(View v)

@@ -1,23 +1,24 @@
 <resources>
     <string name="app_name">PVC For Wires &amp; Cables</string>
     <string name="bt_1">Introduction</string>
-    <string name="bt_2">PVC Preparation</string>
+    <string name="bt_2">PVC Resin Preparation</string>
     <string name="bt_3">Composition in PVC Compound</string>
     <string name="bt_4">Compound Density &amp; Price Calculation</string>
     <string name="bt_5">Compound Density Calculation</string>
     <string name="bt_6">Compound Price Calculation</string>
     <string name="bt_7">Auto BOM Calculation</string>
     <string name="bt_8">Basic Formulation</string>
-    <string name="bt_9">Troubleshooting Guides for Hold PVC Compounds</string>
+    <string name="bt_9">PVC Raw Material Function Part:1 </string>
     <string name="bt_10">About Me</string>
     <string name="bt_11">PVC RM Test Procedure</string>
-    <string name="bt_12">PVC RM Specification</string>
+    <string name="bt_12">PVC Raw Material Function Part:2</string>
     <string name="int_1">History of PVC</string>
     <string name="title_activity_introduction">Introduction</string>
-    <string name="Contact_us">This is Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
-        in Anchor by Panasonic.  I am a Plastic Engineer,graduated from CIPET,Bhubaneswar.I am an eager Android
-        learner.Just Implemented some basic Ideas about PVC Compounding requried for Wires &amp; Cable. If any
-        Suggestion for the App improvement then Contact me on below mention ID. </string>
+    <string name="Contact_us">I am Bibhuranjan Bihari,Working as a Production Engineer in PVC Compounding
+        sector in some where in this world.Basically I am a Plastic Engineer,graduated from CIPET,Bhubaneswar.I love to develop Android
+        application required in our daily working activity.Just providing some basic ideas about PVC Compounding requried for Wires &amp; Cable.
+        Contents provided in the application is completely confidential and limited to certain user.So please ignore if you get by chance from some where.
+        All data are found after doing  research in daily activity.If any Suggestion regarding application improvement then contact me on below mention ID. </string>
 
     <string name="history">History of PVC(Poly Vinyl Chloride)</string>
     <string name="history1">Polyvinyl chloride or PVC was first created by the German chemist
@@ -91,6 +92,8 @@
     <string name="rn33">Aluminum Hydroxide</string>
     <string name="rn34">Eunox-76</string>
     <string name="rn35">DIDP</string>
+    <string name="rn36">Calcined Clay</string>
+    <string name="rn37">Dibasic Lead Phosphate</string>
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
     <string name="den_cal1">Raw Material Density</string>
