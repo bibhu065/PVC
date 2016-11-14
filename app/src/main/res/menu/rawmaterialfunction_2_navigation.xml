@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="PVC Raw Material List Part:2">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/rtf1"
+                    android:title="Zinc Borate"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf2"
+                    android:title="Stearic Acid"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf3"
+                    android:title="Paraffin Wax"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf4"
+                    android:title="Polyethylene Wax"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf5"
+                    android:title="Finalux GCC-10"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf6"
+                    android:title="Fine Plastaid-T"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf7"
+                    android:title="Molybednum Trioxide"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf8"
+                    android:title="Flame Guard"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf9"
+                    android:title="DOP"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf10"
+                    android:title="CPW"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf11"
+                    android:title="Epoxy"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf12"
+                    android:title="TOTM"
+                    android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+</menu>

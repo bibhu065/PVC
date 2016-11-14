@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="PVC Raw Material List Part:1">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/rtf1"
+                    android:title="@string/rn33"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf2"
+                    android:title="@string/rn4"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf3"
+                    android:title="@string/rn36"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf4"
+                    android:title="@string/rn32"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf5"
+                    android:title="@string/rn5"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf6"
+                    android:title="@string/rn37"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf7"
+                    android:title="@string/rn6"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf8"
+                    android:title="@string/rn7"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf9"
+                    android:title="@string/rn8"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf10"
+                    android:title="@string/rn38"
+                    android:icon="@drawable/ic_exit"/>
+                <item
+                    android:id="@+id/rtf11"
+                    android:title="@string/rn10"
+                    android:icon="@drawable/ic_exit"/>
+            </group>
+        </menu>
+    </item>
+</menu>
